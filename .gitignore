@@ -26,3 +26,6 @@ examples/*/lobster/
 basisFunctions.lobster
 pbeVaspFit2015*.lobster
 pbevaspfit2015*.lobster
+
+# git on Windows ignores case: never let the VASP names above hide source files
+!*.py
