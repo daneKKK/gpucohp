@@ -3,12 +3,43 @@
   "upload_type": "software",
   "description": "<p>gpucohp projects VASP PAW wavefunctions onto atom-centred Slater-type orbitals on a GPU and writes pDOS, pCOOP, pCOHP, COBI and Mulliken/Löwdin charges in LOBSTER's file formats. It follows the projection scheme of Maintz et al. (J. Comput. Chem. 2013, 2016) and reproduces LOBSTER 5.1.1 on the same inputs; see README and benchmarks/.</p>",
   "creators": [
-    {"name": "Alekseev, Daniil", "orcid": "TODO", "affiliation": "TODO"}
+    {
+      "name": "Alekseev, Daniil",
+      "orcid": "0009-0004-3738-1051",
+      "affiliation": "Skolkovo Institute of Science and Technology"
+    },
+    {
+      "name": "Chepkasov, Ilia",
+      "orcid": "0000-0001-8376-2999",
+      "affiliation": "Skolkovo Institute of Science and Technology"
+    },
+    {
+      "name": "Kvashnin, Alexander",
+      "orcid": "0000-0002-0718-6691",
+      "affiliation": "Skolkovo Institute of Science and Technology"
+    }
   ],
-  "keywords": ["COHP", "ICOHP", "LOBSTER", "VASP", "PAW", "chemical bonding", "GPU", "PyTorch"],
-  "license": "TODO",
+  "keywords": [
+    "COHP",
+    "ICOHP",
+    "LOBSTER",
+    "VASP",
+    "PAW",
+    "chemical bonding",
+    "GPU",
+    "PyTorch"
+  ],
+  "license": "MIT",
   "related_identifiers": [
-    {"identifier": "10.1002/jcc.23424", "relation": "references", "scheme": "doi"},
-    {"identifier": "10.1002/jcc.24300", "relation": "references", "scheme": "doi"}
+    {
+      "identifier": "10.1002/jcc.23424",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1002/jcc.24300",
+      "relation": "references",
+      "scheme": "doi"
+    }
   ]
 }

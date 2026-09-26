@@ -3,13 +3,21 @@ message: "If you use gpucohp, please cite it as below, together with the LOBSTER
 title: "gpucohp: GPU projection of plane-wave wavefunctions onto local orbitals for COHP analysis"
 version: 0.1.0
 date-released: "TODO-YYYY-MM-DD"
-license: TODO
+license: MIT
 repository-code: "https://github.com/TODO/gpucohp"
 authors:
   - family-names: Alekseev
     given-names: Daniil
-    orcid: "https://orcid.org/TODO"
-    affiliation: "TODO"
+    orcid: "https://orcid.org/0009-0004-3738-1051"
+    affiliation: "Skolkovo Institute of Science and Technology"
+  - family-names: Chepkasov
+    given-names: Ilia
+    orcid: "https://orcid.org/0000-0001-8376-2999"
+    affiliation: "Skolkovo Institute of Science and Technology"
+  - family-names: Kvashnin
+    given-names: Alexander
+    orcid: "https://orcid.org/0000-0002-0718-6691"
+    affiliation: "Skolkovo Institute of Science and Technology"
 keywords: [COHP, ICOHP, LOBSTER, VASP, PAW, chemical bonding, GPU]
 references:
   - type: article

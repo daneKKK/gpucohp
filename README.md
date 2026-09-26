@@ -117,4 +117,5 @@ basis-set tables you used.
 
 ## Licence
 
-TODO
+MIT (`LICENSE`). The basis-set tables in `third_party/` keep their own terms
+(see the README files there).
