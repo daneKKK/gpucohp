@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# VASP inputs and outputs never belong here (POTCARs are licensed, WAVECARs are huge)
+POTCAR
+WAVECAR
+WAVECAR*
+vasprun.xml
+OUTCAR
+CHG*
+DOSCAR
+EIGENVAL
+PROCAR
+*.out
+
+# outputs of running the example in place; reference/ is tracked
+examples/*/*.lobster
+examples/*/lobsterout
+examples/*/lobster/
+
+# LOBSTER basis dumps and the user basis library: covered by the LOBSTER licence
+basisFunctions.lobster
+pbeVaspFit2015*.lobster
+pbevaspfit2015*.lobster

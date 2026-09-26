@@ -1,0 +1,5 @@
+COHPstartEnergy  -22
+COHPendEnergy     18
+basisSet koga
+basisFunctions Ti 3p 3d 4s
+cohpbetween atom 1 and atom 2

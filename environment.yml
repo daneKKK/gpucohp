@@ -1,0 +1,14 @@
+# conda env create -f environment.yml && conda activate gpucohp
+# Tested: RTX PRO 4500 Blackwell (homer). For other GPUs pick the PyTorch CUDA
+# build that supports them (https://pytorch.org/get-started/locally/).
+name: gpucohp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pytorch=2.8.0=cuda129*
+  - pip
+  - pip:
+      - -e .

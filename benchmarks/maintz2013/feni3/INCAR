@@ -1,0 +1,21 @@
+# Startparameter for this run:
+  PREC   = Accurate
+  ISPIN  =      2
+  ICHARG =      2
+  MAGMOM = 4*1.0
+NPAR = 4
+  NBANDS = 40
+
+# Electronic Relaxation
+  EDIFF  =  1E-08
+  IALGO  =     38
+  NELM   =    100
+  NELMDL =     -5
+
+  LCHARG = .FALSE.
+  LWAVE  = .TRUE.
+  LORBIT = 12
+
+ISYM = -1
+ISMEAR = 0
+SIGMA = 0.05

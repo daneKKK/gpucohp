@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpucohp"
+version = "0.1.0"
+description = "GPU re-implementation of the LOBSTER projection scheme: VASP WAVECAR -> atom-centred STO basis, pDOS/pCOOP/pCOHP/COBI in LOBSTER file formats"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Daniil Alekseev" }]
+keywords = ["LOBSTER", "COHP", "ICOHP", "VASP", "PAW", "chemical bonding", "GPU"]
+dependencies = ["numpy>=1.22", "scipy>=1.8", "torch>=2.0"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+gpucohp = "gpucohp.cli:main"
+gpucohp-basis = "gpucohp.userbasis:main"
+
+[tool.setuptools]
+packages = ["gpucohp"]
+
+[tool.setuptools.package-data]
+gpucohp = ["basis_data/*.lobster", "basis_data/*.sto"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

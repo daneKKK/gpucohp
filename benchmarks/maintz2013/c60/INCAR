@@ -1,0 +1,15 @@
+ALGO = Normal
+PREC   = Normal
+ISPIN  = 1
+
+NBANDS = 240
+
+LREAL = Auto
+NSW    = 0
+NELMIN = 4
+
+ISMEAR = 0
+EDIFF = 1e-05
+ISYM = -1
+SIGMA = 0.05
+LWAVE = .TRUE.

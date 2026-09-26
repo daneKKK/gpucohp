@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use gpucohp, please cite it as below, together with the LOBSTER method papers listed under references."
+title: "gpucohp: GPU projection of plane-wave wavefunctions onto local orbitals for COHP analysis"
+version: 0.1.0
+date-released: "TODO-YYYY-MM-DD"
+license: TODO
+repository-code: "https://github.com/TODO/gpucohp"
+authors:
+  - family-names: Alekseev
+    given-names: Daniil
+    orcid: "https://orcid.org/TODO"
+    affiliation: "TODO"
+keywords: [COHP, ICOHP, LOBSTER, VASP, PAW, chemical bonding, GPU]
+references:
+  - type: article
+    title: "Analytic projection from plane-wave and PAW wavefunctions and application to chemical-bonding analysis in solids"
+    authors: [{family-names: Maintz, given-names: Stefan}, {family-names: Deringer, given-names: Volker L.},
+              {family-names: Tchougréeff, given-names: Andrei L.}, {family-names: Dronskowski, given-names: Richard}]
+    journal: "Journal of Computational Chemistry"
+    volume: 34
+    start: 2557
+    year: 2013
+    doi: 10.1002/jcc.23424
+  - type: article
+    title: "LOBSTER: A tool to extract chemical bonding from plane-wave based DFT"
+    authors: [{family-names: Maintz, given-names: Stefan}, {family-names: Deringer, given-names: Volker L.},
+              {family-names: Tchougréeff, given-names: Andrei L.}, {family-names: Dronskowski, given-names: Richard}]
+    journal: "Journal of Computational Chemistry"
+    volume: 37
+    start: 1030
+    year: 2016
+    doi: 10.1002/jcc.24300
+  - type: article
+    title: "Crystal Orbital Hamilton Population (COHP) Analysis As Projected from Plane-Wave Basis Sets"
+    authors: [{family-names: Deringer, given-names: Volker L.}, {family-names: Tchougréeff, given-names: Andrei L.},
+              {family-names: Dronskowski, given-names: Richard}]
+    journal: "The Journal of Physical Chemistry A"
+    volume: 115
+    start: 5461
+    year: 2011
+    doi: 10.1021/jp202489s

@@ -1,0 +1,64 @@
+gpucohp 0.1.0 - GPU re-implementation of the LOBSTER projection scheme
+starting in /beegfs/home/daniil.alekseev/lobster_gpu/bench/cnt/gpu
+device: cuda  (NVIDIA GeForce RTX 2080 Ti), dtype torch.complex128
+WAVECAR: nspin=1 nk=17 nbands=144 encut=400.0 eV efermi=-1.7273 eV prec=single vol=960.727 A^3
+basis functions for C (ZVAL 4): 2s 2p
+setting up local basis functions...
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+ C 2s 2p_y 2p_z 2p_x
+INFO: PAW bands from 129 upwards will be ignored
+calculating two-centre overlaps (lattice sums up to 9.9 A)...
+    radial pair ('C', '2s') x ('C', '2s') done (0.4 s)
+    radial pair ('C', '2s') x ('C', '2p') done (0.4 s)
+    radial pair ('C', '2p') x ('C', '2s') done (0.4 s)
+    radial pair ('C', '2p') x ('C', '2p') done (0.4 s)
+  4440 pair images, 0.5 s
+projecting...
+  k-point batch size 21
+  spin 1 k-point 17/17  (4.9 s)
+projection finished in 4.9 s
+WARNING: at 13 k-points the retained bands leave a basis direction uncovered (rank-deficient projection); it was completed by the orthogonal complement, as LOBSTER does. Results there depend on that completion; a basis that describes all retained bands (e.g. extra polarisation functions) avoids it.
+abs. charge spilling:   1.09%
+abs. total spilling:   31.01%
+setting up CO interactions... found 48 interactions.
+calculating pDOS... using Gaussian smearing (sigma=0.2eV)
+writing DOSCAR.lobster...
+calculating pCOOPs...
+writing COOPCAR.lobster and ICOOPLIST.lobster (0.1 s)
+calculating pCOHPs...
+writing COHPCAR.lobster and ICOHPLIST.lobster (0.1 s)
+calculating pCOBIs...
+writing COBICAR.lobster and ICOBILIST.lobster (0.2 s)
+number of electrons recovered by projection: 128.0000 of 128
+writing CHARGE.lobster and GROSSPOP.lobster...
+finished in 0 h 0 min 6.3 s of wall time

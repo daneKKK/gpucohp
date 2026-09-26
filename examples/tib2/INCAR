@@ -1,0 +1,15 @@
+SYSTEM = TiB2 static for LOBSTER/gpucohp (ISYM=-1, LWAVE, NBANDS >= 18 basis functions)
+PREC = Accurate
+ENCUT = 500
+GGA = PE
+EDIFF = 1E-6
+LREAL = .FALSE.
+ISMEAR = 0
+SIGMA = 0.05
+NELM = 200
+NSW = 0
+ISYM = -1
+LWAVE = .TRUE.
+LCHARG = .FALSE.
+NBANDS = 40
+NEDOS = 2001
