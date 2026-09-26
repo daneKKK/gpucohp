@@ -12,7 +12,7 @@ takes 1.5 min on one RTX 2080 Ti.
 ## Install
 
 ```bash
-git clone https://github.com/TODO/gpucohp && cd gpucohp
+git clone https://github.com/daneKKK/gpucohp && cd gpucohp
 conda env create -f environment.yml && conda activate gpucohp
 ```
 

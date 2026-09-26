@@ -4,7 +4,7 @@ title: "gpucohp: GPU projection of plane-wave wavefunctions onto local orbitals 
 version: 0.1.0
 date-released: "TODO-YYYY-MM-DD"
 license: MIT
-repository-code: "https://github.com/TODO/gpucohp"
+repository-code: "https://github.com/daneKKK/gpucohp"
 authors:
   - family-names: Alekseev
     given-names: Daniil
