@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use gpucohp, please cite it as below, together with the LOBSTER method papers listed under references."
 title: "gpucohp: GPU projection of plane-wave wavefunctions onto local orbitals for COHP analysis"
-version: 0.1.0
+version: 0.1.1
 date-released: "2026-09-27"
 license: MIT
 repository-code: "https://github.com/daneKKK/gpucohp"

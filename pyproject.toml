@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gpucohp"
-version = "0.1.0"
+version = "0.1.1"
 description = "GPU re-implementation of the LOBSTER projection scheme: VASP WAVECAR -> atom-centred STO basis, pDOS/pCOOP/pCOHP/COBI in LOBSTER file formats"
 readme = "README.md"
 requires-python = ">=3.10"
