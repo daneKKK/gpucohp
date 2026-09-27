@@ -40,6 +40,12 @@
       "identifier": "10.1002/jcc.24300",
       "relation": "references",
       "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22996181",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset",
+      "scheme": "doi"
     }
   ]
 }

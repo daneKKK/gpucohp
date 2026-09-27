@@ -48,3 +48,10 @@ references:
     start: 5461
     year: 2011
     doi: 10.1021/jp202489s
+  - type: data
+    title: "Benchmark data for gpucohp software for COHP analysis of VASP outputs"
+    authors: [{family-names: Alekseev, given-names: D. S.}, {family-names: Chepkasov, given-names: I. V.},
+              {family-names: Kvashnin, given-names: A. G.}]
+    publisher: {name: Zenodo}
+    year: 2026
+    doi: 10.5281/zenodo.22996181

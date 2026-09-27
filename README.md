@@ -108,6 +108,8 @@ the retained bands leave one basis direction uncovered; LOBSTER flags them as
 Hamiltonian there depends on how that direction is completed, in either code;
 at every other k-point the two codes' Hamiltonians agree to 2e-7 eV.
 Small cells are dominated by gpucohp's start-up (about 6 s).
+The complete benchmark data (VASP inputs and outputs, all LOBSTER and gpucohp
+runs, scripts) are archived at [doi:10.5281/zenodo.22996181](https://doi.org/10.5281/zenodo.22996181).
 `benchmarks/` holds the inputs, both codes' outputs, comparison scripts and
 figures (`maintz2013/`: the examples of the 2013 paper; `lobster_examples_shipped/`:
 the examples shipped with LOBSTER, unchanged).
