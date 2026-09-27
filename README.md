@@ -1,5 +1,7 @@
 # gpucohp
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22983563.svg)](https://doi.org/10.5281/zenodo.22983563)
+
 Chemical-bonding analysis from a VASP `WAVECAR` on a GPU: the PAW
 wavefunctions are projected onto atom-centred Slater-type orbitals, and
 pCOHP, pCOOP, COBI, pDOS and Mulliken/Löwdin charges are written in LOBSTER's
@@ -112,8 +114,8 @@ the examples shipped with LOBSTER, unchanged).
 
 ## Citing
 
-Please cite gpucohp (`CITATION.cff`), the LOBSTER method papers above, and the
-basis-set tables you used.
+Please cite gpucohp (DOI [10.5281/zenodo.22983563](https://doi.org/10.5281/zenodo.22983563), details in
+`CITATION.cff`), the LOBSTER method papers above, and the basis-set tables you used.
 
 ## Licence
 
