@@ -7,15 +7,15 @@ license: MIT
 repository-code: "https://github.com/daneKKK/gpucohp"
 authors:
   - family-names: Alekseev
-    given-names: Daniil
+    given-names: D. S.
     orcid: "https://orcid.org/0009-0004-3738-1051"
     affiliation: "Skolkovo Institute of Science and Technology"
   - family-names: Chepkasov
-    given-names: Ilia
+    given-names: I. V.
     orcid: "https://orcid.org/0000-0001-8376-2999"
     affiliation: "Skolkovo Institute of Science and Technology"
   - family-names: Kvashnin
-    given-names: Alexander
+    given-names: A. G.
     orcid: "https://orcid.org/0000-0002-0718-6691"
     affiliation: "Skolkovo Institute of Science and Technology"
 keywords: [COHP, ICOHP, LOBSTER, VASP, PAW, chemical bonding, GPU]

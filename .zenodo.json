@@ -4,17 +4,17 @@
   "description": "<p>gpucohp projects VASP PAW wavefunctions onto atom-centred Slater-type orbitals on a GPU and writes pDOS, pCOOP, pCOHP, COBI and Mulliken/Löwdin charges in LOBSTER's file formats. It follows the projection scheme of Maintz et al. (J. Comput. Chem. 2013, 2016) and reproduces LOBSTER 5.1.1 on the same inputs; see README and benchmarks/.</p>",
   "creators": [
     {
-      "name": "Alekseev, Daniil",
+      "name": "Alekseev, D. S.",
       "orcid": "0009-0004-3738-1051",
       "affiliation": "Skolkovo Institute of Science and Technology"
     },
     {
-      "name": "Chepkasov, Ilia",
+      "name": "Chepkasov, I. V.",
       "orcid": "0000-0001-8376-2999",
       "affiliation": "Skolkovo Institute of Science and Technology"
     },
     {
-      "name": "Kvashnin, Alexander",
+      "name": "Kvashnin, A. G.",
       "orcid": "0000-0002-0718-6691",
       "affiliation": "Skolkovo Institute of Science and Technology"
     }

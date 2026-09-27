@@ -10,9 +10,9 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 authors = [
-    { name = "Daniil Alekseev" },
-    { name = "Ilia Chepkasov" },
-    { name = "Alexander Kvashnin" },
+    { name = "D. S. Alekseev" },
+    { name = "I. V. Chepkasov" },
+    { name = "A. G. Kvashnin" },
 ]
 keywords = ["LOBSTER", "COHP", "ICOHP", "VASP", "PAW", "chemical bonding", "GPU"]
 dependencies = ["numpy>=1.22", "scipy>=1.8", "torch>=2.0"]
