@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22983563.svg)](https://doi.org/10.5281/zenodo.22983563)
 
+GPU crystal orbital Hamilton population (COHP) analysis, a fast LOBSTER alternative for VASP
+
 Chemical-bonding analysis from a VASP `WAVECAR` on a GPU: the PAW
 wavefunctions are projected onto atom-centred Slater-type orbitals, and
 pCOHP, pCOOP, COBI, pDOS and Mulliken/Löwdin charges are written in LOBSTER's
